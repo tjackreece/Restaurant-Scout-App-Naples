@@ -10,7 +10,7 @@ INSERT INTO restaurants ( name, location, price_range) values ('Pizza Hut', 'Chi
 INSERT INTO restaurants ( name, location, price_range) values ('Wendys', 'Denver', 3);
 INSERT INTO restaurants ( name, location, price_range) values ('Burger King', 'Louisiana', 3);
 
-ALTER TABLE products ADD COLUMN featured boolean;
+
 
 INSERT INTO reviews ( restaurant_id, name, review, rating) values (1,'kim', 'ITS OKAY', 2);
 INSERT INTO reviews ( restaurant_id, name, review, rating) values (1,'james', 'ITS somthing u gotta try', 2);
